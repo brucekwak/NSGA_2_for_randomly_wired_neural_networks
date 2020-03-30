@@ -5,8 +5,15 @@
 
 
 ## Run
-$ #search
-$ python main_search.py --params Main_experiment_1_search.json
-$
-$ #full training (=architecture evaluation)
-$ python main_full_training.py --params Main_experiment_1_full_training.json
+[1] Search
+<pre>
+<code>
+ python main_search.py --params Main_experiment_1_search.json
+</code>
+</pre>
+[2] Full training (=Architecture evaluation)
+<pre>
+<code>
+ python main_full_training.py --params Main_experiment_1_full_training.json
+</code>
+</pre>
