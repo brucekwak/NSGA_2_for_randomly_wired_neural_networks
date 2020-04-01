@@ -2,6 +2,10 @@
 유전 알고리즘을 활용한 Randomly Wired Neural Network의 다중 목적 구조최적화
 
 
+## Work with
+- [김낙일](https://github.com/forestnoobie)
+
+
 ## Run
 [1] Search
 <pre>
@@ -27,7 +31,3 @@
 ## Reference code
 - https://github.com/seungwonpark/RandWireNN
 - https://github.com/JiaminRen/RandWireNN
-
-
-## Work with
-- [김낙일](https://github.com/forestnoobie)
