@@ -31,3 +31,7 @@
 ## Reference code
 - https://github.com/seungwonpark/RandWireNN
 - https://github.com/JiaminRen/RandWireNN
+
+
+## Thanks to
+SKT AI FELLOWSHIP
