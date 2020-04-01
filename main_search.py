@@ -30,7 +30,20 @@ class Main_train:
         params = json.load(f)
         pprint(params)
         self.name = params['NAME']
-
+        
+        ## 디렉토리 생성
+        graph_pool_dir = './graph_pool/'
+        if not os.path.exists(graph_pool_dir):
+            os.makedirs(graph_pool_dir)
+        
+        log_dir = './logs/'
+        if not os.path.exists(log_dir):
+            os.makedirs(log_dir)
+        
+        data_dir = './data/'
+        if not os.path.exists(data_dir):
+            os.makedirs(data_dir)
+        
         ## toolbox params
         self.args_train = EasyDict(params['ARGS_TRAIN'])
         self.data_path = params['DATA_PATH']
