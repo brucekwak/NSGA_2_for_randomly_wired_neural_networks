@@ -1,0 +1,34 @@
+{
+    "NAME": "experiment_1",
+    "ARGS_TRAIN" : {
+        "data": "CIFAR10",
+        "num_classes" : 10,
+        
+        "graycode" : true,
+        "input_dim" : 3,
+
+        "base_lr": 0.025,
+        "momentum": 0.9, 
+        "weight_decay": 0.00005,
+        "print_freq": 100,
+        
+        "epochs": 2,
+        "batch_size": 512,
+        "workers": 4,
+        
+        "warmup_epochs": 1
+    },
+    
+    "TRAIN_FROM_LOGS": false,
+    "REAL_TRAIN_LOG_PATH": "/root/data/NSGA_2_for_randomly_wired_neural_networks/logs/... .../train_logging.log",
+    
+    "DATA_PATH" : "/root/data/NSGA_2_for_randomly_wired_neural_networks/data",
+    "RUN_CODE" : "Main",
+    "NUM_GRAPH" : 128,
+
+    "POP_SIZE":8,
+    "NGEN":2,
+    "CXPB":0.5,
+    "MUTPB":0.1
+
+}

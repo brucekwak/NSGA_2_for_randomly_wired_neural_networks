@@ -1,0 +1,6 @@
+#folder
+/data/*
+/graph_pool/*
+
+#logs
+*.log
