@@ -27,3 +27,7 @@
 ## Reference code
 - https://github.com/seungwonpark/RandWireNN
 - https://github.com/JiaminRen/RandWireNN
+
+
+## Work with
+- [김낙일](https://github.com/forestnoobie)
